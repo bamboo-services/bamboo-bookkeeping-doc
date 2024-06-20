@@ -32,10 +32,13 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.tabs
     - navigation.footer
     - toc.follow
-    - toc.integrate
     - navigation.top
 plugins:
   - search
+nav:
+  - 入门:
+    - 欢迎使用筱账本: getting-started/hello.md
+  - 说明:
+    - 概要说明: introduction/index.md
