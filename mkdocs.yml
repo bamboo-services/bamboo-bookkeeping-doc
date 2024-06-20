@@ -1,0 +1,41 @@
+site_name: 筱账本
+site_url: https://bamboo-bookkeeping.doc.x-lf.cn/
+repo_url: https://github.com/bamboo-services/bamboo-bookkeeping/wiki
+repo_name: bamboo-services/bamboo-bookkeeping
+copyright: Copyright &copy; 2016-2024 筱锋xiao_lfeng All Rights Reserved. 版权所有
+theme:
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换亮色模式
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 依照系统进行模式切换
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+plugins:
+  - search
